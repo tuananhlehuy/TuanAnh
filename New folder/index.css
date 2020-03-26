@@ -1,0 +1,52 @@
+.box-wrapper {
+    display: flex;
+    width: 100%;
+    color: black;
+    background-color: steelblue;
+}
+
+.box-wrapper .box {
+    width: 300px;
+    height: 450px;
+    background-color: wheat;
+    text-align: center;
+    border-style: groove;
+    margin-top: 50px;
+    margin-bottom: 700px;
+    margin-right: 20px;
+    margin-left: 10px;
+
+}
+
+
+/* Đối với thẻ 
+tên_thẻ {
+    thuộc tính : giá trị ; bắt buộc p có dấu ;
+} */
+
+img {
+    width: 300px;
+    height: 200px;
+}
+
+h2 {
+    width: 100%;
+   
+
+}
+p {
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    overflow:hidden;
+    width: 100%;
+    max-width: 300px;
+    height: 200px;
+    /*some width*/
+}
+a {
+    color: black;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
