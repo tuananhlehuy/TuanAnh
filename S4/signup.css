@@ -8,6 +8,7 @@
     padding: 35px;
     text-align: center;
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 .input1{
     width: 84%;
@@ -28,7 +29,7 @@ ul{
 body{
     background: url(./images/pexels-photo-1006293.jpeg);
     background-repeat: no-repeat;
-    background-size: 1400px 750px ;
+    background-size: 1400px 1000px ;
     font-family: Arial, Helvetica, sans-serif;
 }
 .input2{
@@ -78,5 +79,9 @@ body{
 }
 #icon2{
     background: url(./images/user.png) no-repeat 382px 11px;
+    background-size: 25px;
+}
+#icon3{
+    background: url(./images/e-mail.png) no-repeat 382px 11px;
     background-size: 25px;
 }
